@@ -1,37 +1,40 @@
-Favyjs
+<h1>Favyjs</h1>
 localstorage made easy and complex
 
-Favyjs
+<b>Favyjs</b>
 
-brings complexity to the use of local storage using instances
-comes with NodifyJS dependency library which gives Favyjs users a sweet taste of Nodejs on your browser
-and makes it possible for the require function to work on your browser
-HOW TO USE
-download zip file on...
-https://linktr.ee/Godskid/Favyjs
+<p>brings complexity to the use of local storage using instances</p>
 
-or
+<a href="#">HOW TO USE</a>
 
+download the file on...
 on github
 
-and refrence favyjs and Nodifyjs thus
-`<script src="favyjs/favy.js"></script>
+<b><i>you can either use the ESN module or the ES6 module...</i></b>
 
-<script src="favyjs/Nodifyjs/nodify.js"></script>
-`
+<h4>add the file to you script thus</h4>
+
+<script src="path/to/favy.js"></script>
+
+<script src="path/to/favy.es.js"></script>
+
+<i>if you are most familiar with Nodejs... youre free to use the ESN module on your browser.. but ensure to add the path to Nodifyjs in you script</i>
+
+<script src="favyjs/Nodifyjs/nodifyjs></script>
+
 
 LETS GO TO THE MAJOR PART
 
-Favyjs is an ESN Module.. thus you have to require favyjs..
+             <b>Using the ESN Module, you can require favyjs thus..</b>
+<script>
+             const fave = require("favyjs/favy.js")
 
-const fave = require("favyjs/favy.js")
-
-now call a Favyjs Instance...
+//now call a Favyjs Instance...
 
 const Favy = new Name()
-note
-
-Favyjs instances/constructors require a single parameter per call...
+                                                  </script>                                        
+                                                  <h3>note</h3>
+                                                  <b><i>Favyjs instances/constructors require a single parameter per call...</i></b>
 
 Favyjs Instances/Constructors Include
 Name()
@@ -41,6 +44,10 @@ Phone()
 Password()
 
 ensure to use the new javascript keyword infront of all Favyjs Instances/constructors
+                                                  <b>example</b>
+<script>
+                                                  const fave = new Name();
+                                                  </script>
 
 Getting stored data on Favyjs
 for each constructor...
@@ -50,6 +57,27 @@ getage()
 getemail()
 getphone()
 getpassword()
+                                                  
+                                                  <b>Favyjs at work</b>
+                                                  
+                                                  <script>
+                                                  //ESN Module
+                                                  <script>
+                                                  const req = require('favyjs/favy.es.js');
+                                                  const fave = new Name('Young Developer');
+                                                  console.log(fave.getname());
+                                                  
+                                                  //output ... Young Developer
+                                                  
+                                                  //ES6 Module...
+                                                  
+                                              import {Name} from 'favyjs/favy.js';
+                                                  
+                                                  const fave = new Name('Young Developer');
+                                                  console.log(fave.getname());
+                                                  
+                                                  //output ... Young Developer
+                                                  
 
 Enjoy Favyjs
 
