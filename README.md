@@ -1,11 +1,11 @@
-<h1>Favyjs</h1>
+# Favyjs
 localstorage made easy and complex
 
-<b>Favyjs</b>
+## Favyjs
 
 <p>brings complexity to the use of local storage using instances</p>
 
-<a href="#">HOW TO USE</a>
+**# HOW TO USE
 
 download the file on...
 on github
@@ -13,8 +13,8 @@ on github
 <b><i>you can either use the ESN module or the ES6 module...</i></b>
 
 <h4>add the file to you script thus</h4>
-
-<script src="path/to/favy.js"></script>
+~~<script src="path/to/favy.js"></script>
+`
 
 <script src="path/to/favy.es.js"></script>
 
@@ -59,7 +59,7 @@ getphone()
 getpassword()
                                                   
                                                   <b>Favyjs at work</b>
-                                                  
+                                                  ```
                                                   <script>
                                                   //ESN Module
                                                   <script>
@@ -77,7 +77,7 @@ getpassword()
                                                   console.log(fave.getname());
                                                   
                                                   //output ... Young Developer
-                                                  
+                                                  ```
 
 Enjoy Favyjs
 
