@@ -3,35 +3,36 @@ localstorage made easy and complex
 
 ## Favyjs
 
-<p>brings complexity to the use of local storage using instances</p>
+**  brings complexity to the use of local storage using instances</p>
 
-**# HOW TO USE
+** HOW TO USE
 
 download the file on...
 on github
 
-<b><i>you can either use the ESN module or the ES6 module...</i></b>
+** you can either use the ESN module or the ES6 module...</i></b>
 
-<h4>add the file to you script thus</h4>
-~~<script src="path/to/favy.js"></script>
-`
+add the file to you script thus
 
-<script src="path/to/favy.es.js"></script>
-
-<i>if you are most familiar with Nodejs... youre free to use the ESN module on your browser.. but ensure to add the path to Nodifyjs in you script</i>
-
-<script src="favyjs/Nodifyjs/nodifyjs></script>
+` <script src="path/to/favy.js"></script>
 
 
-LETS GO TO THE MAJOR PART
+` <script src="path/to/favy.es.js"></script>
 
-             <b>Using the ESN Module, you can require favyjs thus..</b>
-<script>
+#### if you are most familiar with Nodejs... youre free to use the ESN module on your browser.. but ensure to add the path to Nodifyjs in you script</i>
+
+` <script src="favyjs/Nodifyjs/nodifyjs></script>
+
+
+## LETS GO TO THE MAJOR PART
+
+             ### Using the ESN Module, you can require favyjs thus..</b>
+__ <script>
              const fave = require("favyjs/favy.js")
 
 //now call a Favyjs Instance...
 
-const Favy = new Name()
+__ const Favy = new Name()
                                                   </script>                                        
                                                   <h3>note</h3>
                                                   <b><i>Favyjs instances/constructors require a single parameter per call...</i></b>
