@@ -60,11 +60,11 @@ for each constructor...
 ## getphone()
 ## getpassword()
                                                   
-                                                  <b>Favyjs at work</b>
-                                                  ```
-                                                  <script>
-                                                  //ESN Module
-                                                  <script>
+## Favyjs at work
+                                                  
+            <script>
+                //ESN Module
+                                 
                                                   const req = require('favyjs/favy.es.js');
                                                   const fave = new Name('Young Developer');
                                                   console.log(fave.getname());
@@ -79,7 +79,8 @@ for each constructor...
                                                   console.log(fave.getname());
                                                   
                                                   //output ... Young Developer
-                                                  ```
+                        </script>
+                                                 
 
 # Enjoy Favyjs
 
