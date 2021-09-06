@@ -14,51 +14,51 @@ on github
 
 add the file to you script thus
 
-### <script src="path/to/favy.js"></script>
+            <script src="path/to/favy.js"></script>
 
 
-### <script src="path/to/favy.es.js"></script>
+            <script src="path/to/favy.es.js"></script>
 
-####if you are most familiar with Nodejs... youre free to use the ESN module on your browser.. but ensure to add the path to Nodifyjs in you script</i>
+### if you are most familiar with Nodejs... youre free to use the ESN module on your browser.. but ensure to add the path to Nodifyjs in you script</i>
 
-` <script src="favyjs/Nodifyjs/nodifyjs></script>
+            <script src="favyjs/Nodifyjs/nodifyjs></script>
 
 
-##LETS GO TO THE MAJOR PART
+## LETS GO TO THE MAJOR PART
 
-##Using the ESN Module, you can require favyjs thus..</b>
+### Using the ESN Module, you can require favyjs thus..</b>
 
-        ...<script>
-             const fave = require("favyjs/favy.js")
+               <script>
+                 const fave = require("favyjs/favy.js")
 
-//now call a Favyjs Instance...
+                //now call a Favyjs Instance...
 
-const Favy = new Name()
-                                                  </script>                                        
-                                                  <h3>note</h3>
-                                                  <b><i>Favyjs instances/constructors require a single parameter per call...</i></b>
+                  const Favy = new Name();
+                       </script>                                       
+## note
+Favyjs instances/constructors require a single parameter per call.
 
-Favyjs Instances/Constructors Include
-Name()
-Age()
-Email()
-Phone()
-Password()
+## Favyjs Instances/Constructors Include
+# Name()
+# Age()
+# Email()
+# Phone()
+# Password()
 
 ensure to use the new javascript keyword infront of all Favyjs Instances/constructors
-                                                  <b>example</b>
-<script>
-                                                  const fave = new Name();
-                                                  </script>
+                                                 
+                             <script>
+                              const fave = new Name();
+                            </script>
 
-Getting stored data on Favyjs
+# Getting stored data on Favyjs
 for each constructor...
 
-getname()
-getage()
-getemail()
-getphone()
-getpassword()
+## getname()
+## getage()
+## getemail()
+## getphone()
+## getpassword()
                                                   
                                                   <b>Favyjs at work</b>
                                                   ```
@@ -81,5 +81,5 @@ getpassword()
                                                   //output ... Young Developer
                                                   ```
 
-Enjoy Favyjs
+# Enjoy Favyjs
 
